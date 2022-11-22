@@ -98,8 +98,8 @@ peliculas.forEach(function(pelicula){
     //PADRES E HIJOS
     etiquetaFila.appendChild(columna)
     columna.appendChild(tarjeta)
-    tarjeta.appendChild(nombre)
     tarjeta.appendChild(poster)
+    tarjeta.appendChild(nombre)
     tarjeta.appendChild(duracion)
     tarjeta.appendChild(sinopsis)
 })
